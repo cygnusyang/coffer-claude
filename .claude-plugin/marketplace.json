@@ -1,0 +1,8 @@
+{
+  "name": "coffer-claude",
+  "description": "Coffer for Claude Code — local secrets gateway MCP with zero-config discovery (use secrets, never read them)",
+  "owner": { "name": "cygnusyang" },
+  "plugins": [
+    { "name": "coffer", "source": "./" }
+  ]
+}
