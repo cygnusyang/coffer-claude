@@ -1,5 +1,17 @@
 # Coffer for Claude Code
 
+> **废弃注记（2026-10-18）**：本仓已**整体收编**入 [coffer](https://github.com/cygnusyang/coffer) 主仓
+> `plugins/claude-code/`（根级 `.claude-plugin/marketplace.json` 提供市场清单；许可由 MIT 改随主仓
+> AGPL-3.0）。本仓停止维护、仅作历史查阅——**请勿再从本仓安装**。安装改用主仓市场：
+>
+> ```bash
+> claude plugin marketplace add cygnusyang/coffer
+> claude plugin install coffer@coffer
+> ```
+>
+> 已装 `coffer@coffer-claude` 的用户：先 `claude plugin uninstall coffer` 并
+> `claude plugin marketplace remove coffer-claude`，再执行上述两条命令。
+
 [Claude Code plugin](https://code.claude.com/docs/en/plugins/overview) that wires your local
 [`coffer`](https://github.com/cygnusyang/coffer) secrets gateway into Claude — with **zero per-user
 configuration** and the rule *use secrets, never read them*.
